@@ -1,0 +1,28 @@
+create table study_2
+select * from study_2;
+
+drop table study_2;
+
+create table study_2 (id number, name varchar2(20), city varchar2(20), salary number);
+
+insert into study_2 values (101,'shree','satara',200000);
+insert into study_2 values (102,'hrish','agara',100000);
+insert into study_2 values (103,'jee','satara',150000);
+insert into study_2 values (104,'rish','agara',170000);
+insert into study_2 values (105,'klhree','satara',210000);
+insert into study_2 values (106,'dsrish','agara',145000);
+
+
+select id,name from study_2;
+ 
+insert into study_2 values (107,'ish','gara','');
+insert into study_2 values (108,'','delra','');
+insert into study_2 values (108,'','delra','');
+
+select * from study_2;
+
+
+Method 2
+
+insert into study_2(id, name, city, salary) values(109, 'simmy', 'pune', 143000);
+insert into study_2(id, city) values(110,'amaravati');
